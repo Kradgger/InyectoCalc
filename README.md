@@ -4,7 +4,7 @@
 <br>
 <p>Versiones</p>
 
-<strong>1.0.0</strong>
+<strong>v1.0.0</strong>
 <ul>
 <li>Version inicial</li>
 </ul>
