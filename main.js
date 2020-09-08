@@ -3,8 +3,9 @@ const { app, BrowserWindow } = require('electron')
 function createWindow() {
     // Create the browser window.
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1024,
+        height: 400,
+        icon: __dirname + '/img/icon.ico',
         webPreferences: {
             nodeIntegration: true
         }
@@ -12,9 +13,6 @@ function createWindow() {
 
     // and load the index.html of the app.
     win.loadFile('index.html')
-
-    // Open the DevTools.
-    win.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
